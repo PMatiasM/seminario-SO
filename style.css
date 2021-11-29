@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1s;
+    font-family: 'Montserrat', sans-serif;
+}
+button{
+    background: #efefef;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 0.5s;
+    vertical-align: middle;
+}
+button span{
+    display: block;
+    background: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 2px;
+    transition: background 0.5s, margin-left 0.5s;
+}
+.active{
+    background: rgba(246,199,131,255);
+}
+.active span{
+    background: #fff;
+    margin-left: 31px;
+}
+#menu {
+    padding: 30px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+header {
+    background: black;
+}
+
+p {
+    display: inline-block;
+    color: rgba(255,254,255,255);
+    font-size: 20px;
+    margin: 20px 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.conteudo {
+    background: black;
+    width: 100%;
+}
+
+.conteudo2 {
+    background: black;
+    width: 100%;
+    
+}
+
+.cor1 {
+    background: rgba(30,33,50,255);
+}
+
+.cor2 {
+    background: rgba(36,39,58,255);
+}
+
+.cor3 {
+    background: rgba(48,52,81,255);
+}
+
+.inv {
+    opacity: 0;
+}
+
+.caixa {
+    width: 980px;
+    margin: 0 auto;
+    padding: 85px 0;
+}
+
+.titulo {
+    width: 49%;
+    display: inline-block;
+}
+
+h2 {
+    color: rgba(246,199,131,255);
+    font-size: 30px;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 75px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.h2p {
+    color: rgba(246,199,131,255);
+    font-size: 20px;
+}
+
+.h1p,.h2p2 {
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0 35px 0;
+}
+
+.h2p2 {
+    color: rgba(246,199,131,255);
+}
+
+#logo {
+    width: 49%;
+    vertical-align: middle;
+}
+
+.div-links {
+    width: 900px;
+    margin: 175px auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.links {
+    text-decoration: none;
+    color: rgba(246,199,131,255);
+    font-size: 19px;
+    margin: 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.links:hover {
+    color: whitesmoke;
+}
+
+#caixa1 {
+    min-height: calc(100vh - 120px);
+}
+
+.explicacoes {
+    text-indent: 1.5em;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+#show {
+    opacity: 0;
+}
+
+.terminal {
+    width: 49%;
+}
+
+#VD h2 {
+    margin-top: 20px;
+}
+
+#ultimo-borda {
+    padding-bottom: 35px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.return {
+    text-align: center;
+}
+
+.return img {
+    width: 60px;
+    margin: 45px 0 0 0;
+}
+
+.alg {
+    
+    text-align: center;
+}
+
+.alg img {
+    width: 80%;
+}
+
+.alg h2 {
+    margin: 20px;
+}
+
+.sumario {
+    font-size: 15px;
+    font-style: italic;
+}
+
+b {
+    font-weight: bold;
+}
+
+li {
+    margin-left: 90px;
+    list-style: disc;
+    color: rgba(246,199,131,255);
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.sub {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.dfc {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.dfc .explicacoes {
+    color: rgba(246,199,131,255);
+}
+
+#body {
+    background: rgba(48,52,81,255)
+}
+
+.referencias {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+
+.caixaRef {
+    width: 1010px;
+    min-width: 150px;
+
+}
+
+.caixaRef h2 {
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.block {
+    display: block;
+}
+
+.block a {
+    text-decoration: none;
+    color: whitesmoke;
+}
